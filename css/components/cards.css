@@ -1,0 +1,94 @@
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  .card-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-size: cover;
+    font-size: 24px;
+    color: #ffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+.card-product {
+    overflow: hidden;
+    height: 120px;
+    background: white;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    display: flex;
+    align-items: center;
+}
+
+.card-product img {
+    height: 100%;
+    width: 120px;
+    object-fit: cover;
+}
+
+.card-product >div {
+    margin-left: 20px;
+}
+.card-product h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+.card-product p {
+    margin: 0;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.card-trip {
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+.card-trip > img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.card-trip > div {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card-trip h2  {
+    padding: 0px 10px;
+    margin: 0;
+}
+.card-trip p  {
+    padding: 10px;
+    margin: 0;
+}
+
+.card-trip .avatar-redonda {
+    width: 84px;
+    border-radius: 50px;
+    position: absolute;
+    top: -59px;
+    right: 14px;
+    object-fit: scale-down;
+}
+
+    

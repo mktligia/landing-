@@ -1,0 +1,42 @@
+.btn-medium{
+    border-radius:50px;
+    color: rgba(0,0,0,0.4);
+    border: 1px solid   rgba(0,0,0,0.5);
+    padding: 15px 25px;
+}
+
+.btn-medium:hover{ 
+    color: rgba(2, 2, 2, 0.9); 
+}
+
+.btn-treehouse{
+    border-radius:10px;
+    color: white;
+    background-color: #6AD58B;
+    padding: 15px 25px;
+}
+
+.btn-treehouse:hover { 
+    background-color: #30a154;
+}
+
+
+.btn-yours{
+    border-radius: 4px;
+    background-color: rgb(27, 29, 26);
+    box-shadow: 2px 3px 10px #000;
+    -webkit-transition: box-shadow .6s, text-shadow .3s;  
+    padding: 15px 25px;
+  
+    /* texto*/
+    font-size: 18px;
+    text-align: center;
+    color: #f6f6f6;
+    text-shadow: 1px 1px 6px #000;
+}
+
+.btn-yours:hover { 
+    box-shadow: 3px 4px 30px #000;
+    text-shadow: 0 0 0 ;
+}
+
